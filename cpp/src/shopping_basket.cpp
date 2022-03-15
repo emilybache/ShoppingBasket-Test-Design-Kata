@@ -13,7 +13,7 @@ float price(vector<ItemQuantity> items) {
     }
     else if (total > 100)
     {
-        total -= 0.05*total;
+        total -= 0.07*total;
     }
 
     return total;
